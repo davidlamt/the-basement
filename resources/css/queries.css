@@ -1,0 +1,26 @@
+/* For devices less than 992 pixels */
+@media (max-width: 991px) {
+    .message-box {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* For devices less than 488 pixels */
+@media (max-width: 487px) {
+    label,
+    input {
+        display: block;
+        margin-bottom: 10px;
+
+    }
+    
+    input#name,
+    input#message {
+        width: 100% !important;
+    }
+    
+    input#submit {
+        margin: 0 auto;
+    }
+}

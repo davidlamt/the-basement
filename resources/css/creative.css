@@ -1,0 +1,103 @@
+/* ---------------------------------------- */
+/* BASIC SETUP */
+/* ---------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: #000000;
+    color: #ffffff;
+    text-rendering: optimizeLegibility;
+}
+
+/* ---------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ---------------------------------------- */
+
+.container {
+    width: 80%;
+    max-width: 700px;
+    margin: 40px auto;
+    overflow: auto;
+    border: 1px solid #cccccc;
+}
+
+/* ---------------------------------------- */
+/* HEADER */
+/* ---------------------------------------- */
+
+header {
+    background: #333333;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-weight: 300;
+    font-size: 300%;
+}
+
+/* ---------------------------------------- */
+/* MESSAGES SECTION */
+/* ---------------------------------------- */
+
+#section-messages {
+    height: 200px;
+    border: 1px solid #333333;
+    margin: 30px;
+    padding: 15px;
+    overflow: scroll;
+    overflow-x: auto;
+    white-space: nowrap
+}
+
+#section-messages li {
+    list-style: none;
+    line-height: 145%;
+}
+
+/* ---------------------------------------- */
+/* FOOTER SECTION */
+/* ---------------------------------------- */
+
+footer {
+    padding: 10px;
+    background-color: #333333;
+    text-align: center;
+}
+
+.message-box {
+    display: block;
+    margin: 10px 0;
+}
+
+input#name,
+input#message {
+    padding: 3px;
+    height: 25px;
+}
+
+input#name {
+    width: 130px;
+    margin-right: 20px;
+}
+
+input#message {
+    width: 270px;
+}
+
+input#submit {
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #666666;
+    color: #ffffff;
+    cursor: pointer;
+}
