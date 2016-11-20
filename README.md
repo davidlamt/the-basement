@@ -20,4 +20,4 @@ A chat application that records all entries since its creation.
 
 ## Author
 
-[David Tran](http://davidtranscend.com/)
+[David Tran](http://davidtranscend.com/) 
